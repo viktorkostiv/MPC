@@ -1,0 +1,1126 @@
+@media (min-width:320px) {
+
+    .modal-dialog-scrollable .modal-content{
+        max-height: 80vh;
+    }
+    .modal-dialog.modal-dialog-centered.modal-dialog-scrollable{
+        width: 90%;
+        margin: auto;
+    }
+    h1,
+    h2 {
+        font-size: 40px;
+        line-height: 40px;
+        -webkit-text-stroke-width: 3px;
+    }
+
+    h4,
+    h5 {
+        -webkit-text-stroke-width: 1px;
+    }
+
+    .hero-info {
+        display: none;
+        font-size: 18px;
+        line-height: 144.5%;
+        text-align: center;
+        letter-spacing: -0.204545px;
+    }
+
+    .hero {
+        height: auto;
+        padding-top: 120px;
+        padding-bottom: 10px;
+        background: url(../assets/images/page-parts/hero-mobile-bottom.svg) 0 bottom/ 100% auto no-repeat, url(../assets/images/page-parts/hero-mobile.svg) 0 60% / 100% auto no-repeat;
+    }
+
+    .hero::before {
+        display: none;
+    }
+
+    .hero-main {
+        margin-bottom: 180px;
+    }
+
+    .hero-main img.logo {
+        width: 115px;
+        margin-top: 25px;
+        margin-bottom: 15px;
+    }
+
+    .timer {
+        width: 200px;
+        margin-top: 10px;
+        margin-bottom: 8px;
+    }
+
+    .timer-item {
+        font-size: 14px;
+        line-height: 1em;
+    }
+
+    .stone-right {
+        width: 200px;
+        height: 145px;
+        right: 0px;
+        top: 0px;
+        position: static;
+    }
+    .timer p{
+        margin-bottom: 0;
+    }
+    p.timer-num {
+        font-size: 32px;
+        line-height: 1em;
+        margin-bottom: 7px;
+    }
+
+    .hero-text {
+        display: block;
+        margin: 0px 20px 0px;
+    }
+
+    .hero h5 {
+        font-size: 16px;
+        letter-spacing: -0.204545px;
+        text-transform: uppercase;
+    }
+    .nav-mobile{
+        margin-top: 10px;
+    }
+    .media-nav>a {
+        position: static;
+        transform: translate(0, 0);
+    }
+
+    .media-nav>a>img {
+        height: 62px;
+        width: 62px;
+    }
+
+    .media-nav {
+        width: 230px;
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        margin-bottom: 80px;
+    }
+
+    .bio {
+        background: linear-gradient(181.04deg, #2D2884 0.89%, #3D1B5D 46.27%);
+        padding:45px 15px 140px;
+    }
+
+    .bio p {
+        margin-top: 24px;
+        font-size: 20px;
+    }
+
+    .slider {
+        transform: rotate(0deg);
+        margin-top: 0;
+        width: 100vw;
+        position: relative;
+        z-index: 3;
+    }
+
+    .magicforest {
+        display: block;
+        position: relative;
+        background: url(../assets/images/page-parts/magicforest-mobile.svg) center / cover no-repeat;
+        height: calc(100vw + 100px);
+        margin-top: -450px;
+        z-index: 1;
+    }
+
+    /* .roadmap ul {
+        margin-bottom: 150px;
+    } */
+
+    .roadmap {
+        position: relative;
+        /* height: calc(100vw + 2700px); */
+        z-index: 3;
+        background: url(../assets/images/page-parts/roadmap-mobile.svg) top center / cover no-repeat;
+        margin-top: -70px;
+        padding: 290px 0px 130px;
+    }
+    .roadmap .container{
+        padding: 0px 10px;
+    }
+    .roadmap h2 {
+        margin-bottom: 90px;
+    }
+
+    .roadmap h4 {
+        font-size: 36px;
+        position: relative;
+        width: 150px;
+        text-align: center;
+        margin: 0 auto 85px;
+    }
+    .roadmap p{
+        margin-bottom: 8px;
+    }
+    h4.roadmap-title-two{
+        margin-top: 90px;
+    }
+    .roadmap .team-list p{
+        margin-bottom: 16px;
+        padding: 0px 20px;
+    }
+    .team {
+        position: relative;
+        z-index: 3;
+        background: url(../assets/images/page-parts/team-mobile.svg) top center / cover no-repeat;
+        /* height: calc(100vw + 2620px); */
+        margin-top: -40px;
+        padding: 350px 0 180px;
+    }
+
+    .team-row {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .team-item {
+        width: 90%;
+        margin-bottom: 15px;
+    }
+
+    .team-text {
+        text-align: start;
+        width: 64%;
+    }
+
+    .team h3 {
+        font-size: 32px;
+    }
+    .team p{
+        font-size: 24px;
+    }
+    .team h2 {
+        font-size: 64px;
+        line-height: 92px;
+        margin-bottom: 80px;
+    }
+
+    footer {
+        margin-top: -40px;
+        background: url(../assets/images/page-parts/footer-mobile-bg.svg) top center / cover no-repeat;
+        padding: 120px 0 0px;
+    }
+
+    .accordion-button {
+        padding: 27px 19px;
+    }
+    .questions {
+        padding: 80px 0px 50px;
+    }
+
+    .questions img {
+        width: 63px;
+    }
+
+    .questions p {
+        margin: 1px 0 20px;
+    }
+
+    p.questions-title {
+        font-size: 24px;
+    }
+    .footer-mobile-nav .container{
+        flex-direction: column;
+    }
+}
+
+@media (min-width:375px) {
+
+
+}
+
+@media (min-width:425px) {
+    .hero {
+        background-position: 0 bottom, 0 75%;
+    }
+
+    .roadmap {
+        margin-top: -100px;
+        padding: 290px 50px 100px;
+    }
+
+    .team {
+        padding-top:550px ;
+        padding-bottom: 650px;
+        margin-top: -50px;
+    }
+
+    .magicforest {
+        margin-top: -350px;
+    }
+    .team-item{
+        margin-bottom: 45px;
+    }
+}
+
+@media (min-width:440px) {
+    .roadmap{
+        height: calc(100vw + 2720px);
+    }
+    .team {
+        height: calc(100vw + 2820px);
+    }
+    .magicforest {
+        margin-top: -400px;
+    }
+}
+
+@media (min-width:480px) {
+    .roadmap{
+        padding-top: 400px;
+        height: calc(100vw + 3000px);
+    }
+
+    .team {
+        margin-top: -60px;
+        height: calc(100vw + 3220px);
+    }
+
+    .team-item {
+        margin-bottom: 60px;
+    }
+}
+
+@media (min-width:540px) {
+    .hero {
+        padding-bottom: 60px;
+        background-position: 0 bottom, 0 60%;
+    }
+
+    .media-nav>a>img {
+        height: 52px;
+        width: 52px;
+    }
+
+    .team {
+        margin-top: -70px;
+        height: calc(100vw + 3420px);
+    }
+
+    .roadmap {
+        height: calc(100vw + 3900px);
+    }
+
+    footer {
+        padding: 120px 0 0;
+    }
+    .team-item{
+        margin-top: 120px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .footer-mobile-nav .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (min-width:580px) {
+    .hero {
+        background-position: 0 bottom, 0 50%;
+    }
+
+    .hero-text {
+        width: 80%;
+    }
+
+    .roadmap {
+        margin-top: -140px;
+    }
+
+    .roadmap h2 {
+        margin-bottom: 200px;
+    }
+
+    .roadmap ul {
+        margin-bottom: 250px;
+    }
+
+    .team {
+        padding-top: 600px;
+        height: calc(100vw + 3820px);
+    }
+
+    .team h2 {
+        margin-bottom: 80px;
+    }
+
+    footer {
+        padding: 130px 0 0px;
+    }
+}
+
+@media (min-width:650px) {
+    .sakura-section{
+        display: block;
+    }
+    .media-nav{
+        margin-bottom: 30px;
+    }
+    .roadmap p{
+        margin-bottom: 1rem;
+    }
+    .hero-info {
+        display: block;
+    }
+    #stars,.night,.night-two{
+        opacity: 1;
+    }
+    .hero-section{
+        background:linear-gradient(0deg, #009BBD 0%, #4C009F 53%, #19002A 99%);
+    }
+    .hero {
+        padding: 70px 0 250px;
+        background: url(../assets/images/page-parts/topSpace.png) top right/ 70% no-repeat,
+            url(../assets/images/page-parts/hero-bg-3.svg) center bottom / 100% no-repeat;
+    }
+
+    .hero::after {
+        content:'';
+        position: absolute;
+        display: block;
+        background:url(../assets/images/page-parts/planet.svg) left center/  contain no-repeat;
+        left: 0;
+        top: 100px;
+        width: 278px;
+        height: 265px;
+    }
+
+    .hero h5 {
+        margin-bottom: 45px;
+    }
+
+    .hero::before {
+        z-index: 3;
+    }
+
+
+    .stone-right {
+        right: -0px;
+        top: -0px;
+        position: absolute;
+        z-index: 3;
+        transition: all 0.8s ease;
+    }
+
+    .stone-right:hover {
+        top: 20px;
+    }
+
+    .hero-main {
+        margin-top: 40px;
+        margin-bottom: 0;
+    }
+
+    .nav-mobile {
+        display: none;
+    }
+
+    .hero-text {
+        display: none;
+    }
+
+    .hero h5 {
+        display: block;
+        font-size: 28px;
+    }
+
+    .media-nav>a {
+        position: absolute;
+    }
+
+    .media-nav {
+        width: auto;
+    }
+
+    .media-nav>a.ship {
+        bottom: 26vw;
+        left: 29.5vw;
+    }
+
+    .media-nav>a.ship:hover {
+        bottom: 25.5vw;
+    }
+
+    .media-nav>a.discord {
+        bottom: 28vw;
+        left: 43vw;
+    }
+
+    .media-nav>a.discord:hover {
+        bottom: 27.5vw;
+    }
+
+    .media-nav>a.twitter {
+        bottom: 37vw;
+        left: 71.8vw;
+    }
+
+    .media-nav>a.twitter:hover {
+        bottom: 36.5vw;
+    }
+
+    .nav>a {
+        display: block;
+        font-size: 14px;
+    }
+
+    .nav>a:nth-child(1) {
+        bottom: 26.2vw;
+        left: 17vw;
+    }
+
+    .nav>a:nth-child(2) {
+        bottom: 20.2vw;
+        left: 14vw;
+    }
+
+    .nav>a:nth-child(3) {
+        bottom: 14.2vw;
+        left: 10.5vw;
+    }
+
+    .bio {
+        position: relative;
+        z-index: 2;
+        margin-top: -5px;
+    }
+
+    .magicforest {
+        z-index: 2;
+        height: 100vw;
+        background: url(../assets/images/page-parts/magicforest.svg) bottom center / 100% no-repeat;
+        margin-top: -560px;
+    }
+
+    .roadmap {
+        padding: 500px 0 70px;
+        position: relative;
+        z-index: 3;
+        background: url(../assets/images/page-parts/roadmap-bg.svg) top center/ cover no-repeat;
+        height: auto;
+        margin-top: -170px;
+    }
+
+    .roadmap>ul {
+        position: relative;
+    }
+
+    .roadmap ul img {
+        position: absolute;
+        display: block;
+        left: 30px;
+        z-index: 3;
+    }
+
+    .roadmap h2 {
+        margin-bottom: 100px;
+    }
+
+    .roadmap ul {
+        margin-bottom: 150px;
+    }
+
+    .roadmap ul p {
+        position: relative;
+        z-index: 5;
+        line-height: 1.15em;
+    }
+
+    .team {
+        padding: 500px 0 600px;
+        background: url(../assets/images/page-parts/team-bg.svg) top center / cover no-repeat, linear-gradient(180deg, #031226 0%, #094A46 4.84%);
+        height: auto;
+        margin-top: 0;
+    }
+
+    .team-row {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .team-item {
+        margin-top: 70px;
+        width: 50%;
+    }
+
+    .team-text {
+        width: 60%;
+    }
+
+    .sea-plant-left,
+    .sea-plant-right {
+        display: block;
+        position: absolute;
+    }
+
+    .sea-plant-left {
+        bottom: 10vw;
+        left: -30px;
+    }
+
+    .sea-plant-right {
+        bottom: 17vw;
+        right: 70px;
+    }
+    .footer-mobile-nav .container{
+        flex-direction: row-reverse;
+    }
+    footer{
+        margin-top: -100px;
+    }
+}
+
+@media (min-width:768px) {
+    .hero {
+        padding: 70px 0 350px;
+    }
+
+    .questions {
+        border: 1px solid #CFCFCF;
+        border-radius: 8px;
+        background-color: rgba(255, 255, 255, 0.1);
+        width: 100%;
+        padding: 50px 10px 40px;
+    }
+
+    footer {
+        padding: 170px 0 0px;
+    }
+
+    h1,
+    h2 {
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+}
+
+@media (min-width:800px) {
+    .bio {
+        padding-bottom: 450px;
+    }
+
+    .slider-wrapper {
+        width: 100%;
+        overflow: hidden;
+        padding: 60px 0 0px;
+        margin-top: -400px;
+    }
+
+    .slider {
+        width: 110%;
+        transform: rotate(-3deg) !important;
+    }
+
+    .magicforest {
+        margin-top: -700px;
+    }
+
+    .questions img {
+        width: auto;
+    }
+}
+
+@media (min-width:900px) {
+    .hero {
+        padding: 70px 0 450px;
+    }
+
+    .magicforest {
+        margin-top: -900px;
+    }
+
+    .nav>a {
+        font-size: 20px;
+    }
+}
+
+@media (min-width:1024px) {
+    .hero::before {
+        display: block;
+        width: 550px;
+        height: 575px;
+        bottom: 385px;
+        left: -350px;
+    }
+
+    .timer {
+        width: 280px;
+    }
+
+    h1,
+    h2 {
+        font-size: 64px;
+        line-height: 64px;
+    }
+
+    footer {
+        background: url(../assets/images/page-parts/footer-bg.svg) top center / cover no-repeat;
+        padding: 200px 0 0px;
+    }
+
+    .questions {
+        padding: 80px 30px 50px;
+    }
+
+    .questions p {
+        font-size: 16px;
+        margin: 35px 0 155px;
+    }
+
+    p.questions-title {
+        font-size: 40px;
+        margin: 0;
+    }
+
+    .roadmap {
+        overflow: visible;
+    }
+
+    /* .roadmap::before {
+        content: '';
+        position: absolute;
+        top: -20vw;
+        left: 0;
+        width: 100vw;
+        height: 100%;
+        background: url(../assets/images/page-parts/flowers.svg) top / 100% no-repeat;
+        z-index: +20;
+    } */
+
+    .team-item {
+        margin-top: 70px;
+        width: 25%;
+    }
+    .team h2{
+        font-size: 92px;
+    }
+}
+
+@media (min-width:1100px) {
+    .hero {
+        padding: 70px 0 550px;
+    }
+
+    p.timer-num {
+        font-size: 48px;
+        line-height: 42px;
+    }
+
+    .timer-item {
+        font-size: 16px;
+        line-height: 42px;
+        letter-spacing: 0.015em;
+    }
+
+    .hero-main {
+        margin-top: 40px;
+    }
+
+    h5 {
+        font-size: 36px;
+    }
+
+    .hero-main img.logo {
+        width: 230px;
+    }
+
+    .media-nav>a>img {
+        height: 82px;
+        width: 82px;
+    }
+
+    .magicforest {
+        margin-top: -600px;
+    }
+
+    .team {
+        padding: 210px 0 300px;
+        margin-top: 0;
+    }
+
+    .team-text {
+        width: 70%;
+    }
+
+    .nav>a {
+        font-size: 24px;
+    }
+
+    .sea-plant-right {
+        bottom: 5%;
+        right: 60px;
+    }
+    .hero::after {
+        top: 140px;
+        width: 378px;
+        height: 365px;
+    }
+}
+
+@media (min-width:1200px) {
+
+    .hero-main img.logo {
+        width: 290px;
+    }
+
+    .magicforest {
+        margin-top: -800px;
+    }
+
+    .roadmap {
+        padding: 700px 0 240px;
+    }
+
+    .bio p {
+        font-size: 20px;
+    }
+
+    .hero::before {
+        display: block;
+        width: 750px;
+        height: 575px;
+        top: auto;
+        bottom: 385px;
+        left: -490px;
+    }
+
+    .stone-right {
+        width: 290px;
+        height: 240px;
+    }
+
+    .hero::before {
+        z-index: 3;
+    }
+
+    /* .logo-wrapper {
+        position: relative;
+    }
+    .logo-wrapper{
+        position: relative;
+        z-index: 2;
+    }
+    .logo-wrapper::after {
+        content: '';
+        position: absolute;
+        display: block;
+        width:1167px;
+        height: 670px;
+        top: 50%;
+        z-index: -1;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: url(../assets/images/page-parts/ellipse.svg) center / cover no-repeat;
+    } */
+    .bio {
+        padding-top: 55px;
+    }
+
+    .bio p {
+        margin: 24px 60px 55px;
+    }
+
+    .hero-info {
+        margin-top: 15px;
+        font-size: 24px;
+    }
+
+    .footer-mobile-nav p {
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: -0.02em;
+    }
+
+    .nav-wrapper a {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+@media (min-width:1340px) {
+    .hero {
+        padding-bottom: 510px;
+    }
+
+    .hero-main {
+        margin-top: 60px;
+    }
+
+    .timer-item p {
+        margin-bottom: 0;
+    }
+
+    p.timer-num {
+        margin-bottom: 0px;
+    }
+
+    .hero::before {
+        display: block;
+        width: 850px;
+        height: 675px;
+        top: auto;
+        bottom: 32vw;
+        left: -490px;
+    }
+
+    .media-nav>a>img {
+        width: 102px;
+        height: 102px;
+    }
+
+    .roadmap h4 {
+        margin-bottom: 100px;
+    }
+    .hero::after {
+        top: 220px;
+        width: 378px;
+        height: 365px;
+    }
+    .team-item{
+        margin:70px 0 0px;
+    }
+}
+
+@media (min-width:1440px) {
+    .roadmap h2 {
+        margin-top: 350px;
+        margin-bottom: 120px;
+    }
+
+    .sea-plant-left {
+        bottom: 10vw;
+        left: -30px;
+    }
+
+    .sea-plant-right {
+        bottom: 7%;
+        right: 60px;
+    }
+
+    .stone-right {
+        width: 290px;
+        height: 240px;
+    }
+
+    .stone-right {
+        right: -80px;
+        top: 165px;
+        width: 380px;
+        height: 300px;
+    }
+
+    .stone-right:hover {
+        top: 150px;
+    }
+
+    h1,
+    h2 {
+        -webkit-text-stroke-width: 2px;
+        font-size: 92px;
+        line-height: 92px;
+        font-weight: bold;
+    }
+
+
+    .timer {
+        margin-top: 50px;
+        width: 284px;
+        margin-bottom: 0;
+    }
+
+    .timer-num {
+        line-height: 0.4em;
+    }
+
+    .hero h5 {
+        margin-top: 0px;
+        font-size: 36px;
+        line-height: 183%;
+        letter-spacing: -0.204545px;
+        margin-bottom: 30px;
+        -webkit-text-stroke-width: 1px;
+    }
+
+    .hero {
+        padding-top: 90px;
+    }
+
+    .magicforest {
+        margin-top: -870px;
+    }
+
+    .roadmap {
+        padding: 280px 0 10px;
+        margin-top: -240px;
+    }
+
+    .roadmap .container {
+        width: 1000px;
+    }
+
+    .team-list>li>p {
+        line-height: 1.3em;
+    }
+
+    .nav>a {
+
+        font-size: 32px;
+    }
+
+    footer {
+        margin-top: -120px;
+        padding: 300px 0 0px;
+    }
+
+    .team h2 {
+        margin-bottom: 70px;
+    }
+
+    .team .container {
+        max-width: 1300px;
+    }
+
+    .team-text {
+        width: 60%;
+        margin-top: 335px;
+    }
+
+    .team {
+        padding: 210px 0 230px;
+    }
+}
+
+@media (min-width:1500px) {
+    .team {
+        padding: 210px 0 380px;
+    }
+
+    .magicforest {
+        margin-top: -950px;
+    }
+
+    .roadmap {
+        padding-bottom: 300px;
+    }
+
+    .logo-wrapper::after {
+        background: radial-gradient(54.85% 54.85% at 50% 50%, #262886 23.96%, rgba(148, 170, 217, 0) 100%, rgba(148, 170, 217, 0) 100%), url(../assets/images/page-parts/ellipse.svg) center / contain no-repeat;
+    }
+}
+
+@media (min-width:1640px) {
+    .hero {
+        padding: 130px 0 700px;
+    }
+
+    .hero::before {
+        width: 650px;
+        height: 675px;
+        left: -350px;
+    }
+
+    footer {
+        margin-top: -150px;
+        padding: 300px 0 0px;
+    }
+
+
+    .bio {
+        margin-top: -10px;
+    }
+
+    .magicforest {
+        margin-top: -1100px;
+    }
+
+    .roadmap {
+        margin-top: -300px;
+        padding: 1000px 0 700px;
+    }
+
+    .logo-wrapper::after {
+
+        height: 970px;
+    }
+
+    .team {
+        padding: 260px 0 580px;
+    }
+}
+
+@media (min-width:2000px) {
+    .hero {
+        padding: 130px 0 1300px;
+    }
+
+    .stone-right:hover {
+
+        right: -150px;
+    }
+
+    .hero::before {
+        width: 750px;
+        height: 775px;
+        left: -350px;
+    }
+
+    .media-nav>a>img {
+        height: 112px;
+        width: 112px;
+    }
+
+    .magicforest {
+        margin-top: -1600px;
+    }
+
+    .roadmap ul {
+        font-size: 22px;
+        line-height: 30px;
+        margin-bottom: 350px;
+    }
+
+    .roadmap h2 {
+        margin-bottom: 350px;
+    }
+
+    footer {
+        margin-top: -170px;
+        padding: 400px 0 0px;
+    }
+
+    .team {
+        padding: 560px 0 680px;
+    }
+
+    .media-nav>a.ship {
+        bottom: 26vw;
+        left: 30.5vw;
+    }
+
+    .media-nav>a.discord {
+        bottom: 28vw;
+        left: 44vw;
+    }
+
+    .media-nav>a.twitter {
+        bottom: 37vw;
+        left: 73.8vw;
+    }
+
+}
